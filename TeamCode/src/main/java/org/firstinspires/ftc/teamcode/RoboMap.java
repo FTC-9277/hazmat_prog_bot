@@ -18,6 +18,7 @@ public class RoboMap {
         bright.setDirection(DcMotorSimple.Direction.FORWARD);
         fleft.setDirection(DcMotorSimple.Direction.REVERSE);
         bleft.setDirection(DcMotorSimple.Direction.REVERSE);
+        fright.setDirection(DcMotorSimple.Direction.REVERSE);
 
 
     }
