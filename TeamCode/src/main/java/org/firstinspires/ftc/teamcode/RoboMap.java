@@ -14,11 +14,10 @@ public class RoboMap {
         fleft= op.hardwareMap.get(DcMotor.class,"fleft");
         bright= op.hardwareMap.get(DcMotor.class,"bright");
         fright= op.hardwareMap.get(DcMotor.class,"fright");
-        fright.setDirection(DcMotorSimple.Direction.FORWARD);
-        bright.setDirection(DcMotorSimple.Direction.FORWARD);
-        fleft.setDirection(DcMotorSimple.Direction.REVERSE);
-        bleft.setDirection(DcMotorSimple.Direction.REVERSE);
         fright.setDirection(DcMotorSimple.Direction.REVERSE);
+        bright.setDirection(DcMotorSimple.Direction.REVERSE);
+        bleft.setDirection(DcMotorSimple.Direction.FORWARD);
+        bleft.setDirection(DcMotorSimple.Direction.FORWARD);
 
 
     }
